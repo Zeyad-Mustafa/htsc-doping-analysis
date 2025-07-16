@@ -1,6 +1,6 @@
-I've created a comprehensive repository structure for studying electron- and hole-doped high-temperature superconductors! This repository includes:
+I've created a comprehensive repository structure for studying *electron- and hole-doped high-temperature superconductors!* This repository includes:
 Key Components:
-
+ 
 Structured codebase with classes for doping analysis, phase diagrams, and transport properties
 Jupyter notebooks covering different aspects from basic theory to comparative analysis
 Data organization for cuprates, iron pnictides, and experimental data
