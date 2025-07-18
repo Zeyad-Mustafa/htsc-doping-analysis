@@ -2,7 +2,6 @@
 High Temperature Superconductor Doping Analysis
 Core classes for analyzing electron and hole doped HTSC materials
 """
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
