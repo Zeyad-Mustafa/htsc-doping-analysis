@@ -21,7 +21,7 @@ Universal scaling relationship exploration
 
  Quick Start
 Installation
-bashgit clone https://github.com/yourusername/htsc-doping-analysis.git
+bashgit clone https://github.com/Zeyad-Mustafa/htsc-doping-analysis.git
 cd htsc-doping-analysis
 pip install -r requirements.txt
 Basic Usage
