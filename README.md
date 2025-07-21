@@ -1,21 +1,42 @@
-I've created a comprehensive repository structure for studying *electron- and hole-doped high-temperature superconductors!* This repository includes:
-Key Components:
- 
-Structured codebase with classes for doping analysis, phase diagrams, and transport properties
-Jupyter notebooks covering different aspects from basic theory to comparative analysis
-Data organization for cuprates, iron pnictides, and experimental data
-Example code showing how to analyze both hole- and electron-doped systems
+ Features
+ Core Analysis Capabilities
 
-Educational Features:
+Doping Level Quantification: Calculate carrier concentrations from Hall effect measurements
+Superconducting Dome Analysis: Determine optimal doping levels and dome boundaries
+Phase Transition Detection: Identify structural and magnetic phase transitions
+Transport Property Analysis: Comprehensive resistivity, Hall effect, and critical field analysis
 
-Clear explanations of doping mechanisms in different HTSC families
+ Supported Material Systems
+
+Cuprates: YBCO, NCCO, BSCCO, and other copper-oxide superconductors
+Iron Pnictides: LaFeAsO, BaFe₂As₂, and related compounds
+Iron Chalcogenides: FeSe, FeTe, and their derivatives
+
+🔬 Research Tools
+
 Interactive phase diagram generation
-Comparative analysis tools for different doping types
-Real-world examples using materials like YBCO, NCCO, and iron pnictides
-
-Research Tools:
-
-Carrier concentration calculations from Hall effect data
-Superconducting dome analysis and optimal doping determination
 Quantum critical point identification
-Transport and magnetic property analysis
+Comparative analysis between hole- and electron-doped systems
+Universal scaling relationship exploration
+
+ Quick Start
+Installation
+bashgit clone https://github.com/yourusername/htsc-doping-analysis.git
+cd htsc-doping-analysis
+pip install -r requirements.txt
+Basic Usage
+pythonfrom htsc_analysis import DopingAnalyzer, HTSCMaterial
+
+# Create analyzer
+analyzer = DopingAnalyzer()
+
+# Define material
+ybco = HTSCMaterial("YBCO", "cuprate", "hole")
+
+# Add experimental data
+ybco.add_data('tc_vs_doping', doping_levels, tc_values, 
+              'Hole Doping', 'Tc (K)')
+
+# Find optimal doping
+optimal_doping, max_tc = analyzer.find_optimal_doping("YBCO")
+print(f"Optimal doping: {optimal_doping:.3f}, Max Tc: {max_tc:.1f} K")
