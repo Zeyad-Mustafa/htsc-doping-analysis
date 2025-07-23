@@ -18,7 +18,7 @@ Interactive phase diagram generation
 Quantum critical point identification
 Comparative analysis between hole- and electron-doped systems
 Universal scaling relationship exploration
-
+  
  Quick Start
 Installation
 bashgit clone https://github.com/Zeyad-Mustafa/htsc-doping-analysis.git
