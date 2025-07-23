@@ -1,11 +1,11 @@
- Features
+ Features 
  Core Analysis Capabilities
 
 Doping Level Quantification: Calculate carrier concentrations from Hall effect measurements
 Superconducting Dome Analysis: Determine optimal doping levels and dome boundaries
 Phase Transition Detection: Identify structural and magnetic phase transitions
 Transport Property Analysis: Comprehensive resistivity, Hall effect, and critical field analysis
-
+ 
  Supported Material Systems
 
 Cuprates: YBCO, NCCO, BSCCO, and other copper-oxide superconductors
